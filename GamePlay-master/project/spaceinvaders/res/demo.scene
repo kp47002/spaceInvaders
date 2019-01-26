@@ -1,0 +1,17 @@
+scene
+{
+    path = res/scene.gpb
+
+    ambientColor = 1, 1, 1
+
+    node Box
+    {
+        material = res/demo.material#lambert2
+    }
+	node Cone
+    {
+        material = res/demo.material#lambert2
+    }
+
+    
+}
